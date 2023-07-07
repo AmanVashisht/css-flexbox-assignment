@@ -1,0 +1,72 @@
+<!-- Create a simple webpage as shown in the image below
+The webpage must contain course details
+The cards must be aligned side by side. If and new card gets added, the size of the cards must not be varied and the flow must be moved to the next row automaticall -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #67b8eb73;
+        }
+        .above-heading{
+            text-align: center;
+            color: #5e2eeb;
+            padding-top: 10px;
+        }
+        .above-para{
+            text-align: center;
+            padding-bottom: 80px;
+        }
+        .group{
+            display: flex;
+            justify-content: center;
+    
+        }
+        .box{
+            background-color: #fff;
+            padding: 15px;
+            width: 300px;
+            margin: 10px;
+            border-radius: 8px;
+        }
+        .course{
+            color: #5531d6;
+        }
+        img{
+            width: 300px;
+            height: 180px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <h1 class="above-heading">Community Programs</h1>
+        <p class="above-para">Open to all pro-live classes on Youtube for live</p>
+        <div class="group">
+            <div class="box">
+                <img src="img-que2/download (1).jpeg" alt="course-image">
+                <h3 class="course">Masterclass Understanding APIs in Web Development with RoadMap</h3>
+                <p class="tutor">Hitesh Choudhary</p>
+                <h5 class="discount">FREE</h5>
+            </div>
+            <div class="box">
+                <img src="img-que2/download.jpeg" alt="course-image">
+                <h3 class="course">Masterclass Cracking The Coding Interview LinkedList</h3>
+                <p class="tutor">Vishwa Mohan</p>
+                <h5 class="discount">FREE</h5>
+            </div>
+            <div class="box">
+                <img src="img-que2/maxresdefault.jpg" alt="course-image">
+                <h3 class="course">MasterClass Important of DSA in Modern Programming</h3>
+                <p class="tutor">Priya Bhatia</p>
+                <h5 class="discount">FREE</h5>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

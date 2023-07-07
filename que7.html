@@ -1,0 +1,36 @@
+<!-- Create a simpme webpage alert bar as shown in the below image
+Make sure the image is permanently fixed to the top of the screen. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width: 95%;
+            height: 50px;
+            display: flex;
+            justify-content: space-between;
+            margin: 20px;
+            background-color: #f3b2b2;
+            color: red;
+            border-left: 5px solid red;
+            border-radius: 10px;
+            position: fixed;
+            top: 5px;
+        }
+        img{
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="img-que7/images.jpeg" alt="" class="alert">
+        <p>Warning!! This Action Is Not Allowed.</p>
+        <img src="img-que7/cross.webp" alt="" class="cross">
+    </div>
+</body>
+</html>

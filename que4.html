@@ -1,0 +1,121 @@
+<!-- Create a simple Gmail landing page clone as shown in the below image
+Reference Link: https://www.google.com/intl/en_in/gmail/about/ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .nav{
+            border-bottom: 1px solid grey;
+            display: flex;
+            justify-content: space-between;
+            margin: 0px 70px;
+        }
+
+        .nav-left{
+            display: flex;
+            width: 74px;
+            align-content: center;
+            justify-content: space-between;
+            padding-left: 20px;
+        }
+        .logo{
+            width: 25px;
+            height: 25px;
+            padding-top: 12px;
+        }
+      
+        .nav-right{
+            display: flex;
+            justify-content: space-between;
+            width: 400px;
+            align-content: center;
+            padding-right: 20px;
+        }
+        .para{
+            color: #0971e9;
+        }
+        .white-button{
+            color: #0971e9;
+            background-color: #fff;
+            border: 1px solid grey;
+            margin: 10px;
+            border-radius: 4px;
+            padding: 0px 20px;
+        }
+        .blue-button{
+            background-color: #0971e9;
+            border: 1px solid black;
+            color: #fff;
+            border-radius: 4px;
+            margin: 10px 0px;
+        }
+
+
+        .main{
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid grey;
+            margin: 0px 70px;
+        }
+        .main-left{
+            width: 40%;
+            margin: 0px 40px 50px 40px;
+            padding: 30px 50px 0px 20px;
+        }
+        h2{
+            font-size: 50px;
+        }
+        .main-btn{
+            display: flex;
+            width: 70%;
+            padding-bottom: 30px;
+            justify-content: space-between;
+        }
+        
+        .main-right{
+            width: 60%;
+            margin: 40px 0px;
+            
+        }
+        .main-img{
+            width: 500px;
+            height: 400px;
+            padding-left: 80px;
+        }
+    </style>
+</head>
+<body>
+    <div class="big-box">
+        <div class="nav">
+            <div class="nav-left">
+                <img class="logo" src="img-que4/logo-gmail.png" alt="logo">
+                <p>Gmail</p>
+            </div>
+            <div class="nav-right">
+                <p class="para">For Work</p>
+                <button class="white-button">Sign In</button>
+                <button class="blue-button">Create an account</button>
+            </div>
+        </div>
+        <div class="main">
+            <div class="main-left">
+                <h2>Secure, smart, and easy to use email</h2>
+                <p>Get more done with Gmail. Now integrated with Google Chat, Google
+                    Meet, and more, all in one place.
+                </p>
+                <div class="main-btn">
+                    <button class="blue-button">Create an account</button>
+                    <p class="para main-p-btn">For Work</p>
+                </div>
+            </div>
+            <div class="main-right">
+                <img src="img-que4/unnamed.webp" alt="" class="main-img">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

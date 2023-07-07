@@ -1,0 +1,56 @@
+<!-- Create a simple avatar design as shown in the image below
+Pick any 4 random images and achieve the output -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0%;
+            padding: 0%;
+            background-color: #1c1a1a;
+        }
+        .container{
+            display: flex;
+            position: relative;
+            justify-content: center;
+            margin: 18%;
+            
+        }
+        .disk{
+            width: 150px;
+            height: 150px;
+            border: 8px solid #fff;
+            border-radius: 50%;
+            position: absolute;
+        }
+        .pic1{
+            z-index: 4;
+            left: 100px;
+        }
+        .pic2{
+            z-index: 3;
+            left: 220px;
+        }
+        .pic3{
+            z-index: 2;
+            left: 340px;
+        }
+        .pic4{
+            z-index: 1;
+            left: 460px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="img-que8/download.jpeg" alt="" class="disk pic1">
+        <img src="img-que8/images (1).jpeg" alt="" class="disk pic2">
+        <img src="img-que8/images.jpeg" alt="" class="disk pic3">
+        <img src="img-que8/player.jpg" alt="" class="disk pic4">
+    </div>
+</body>
+</html>

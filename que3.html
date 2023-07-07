@@ -1,0 +1,97 @@
+<!-- Create a simple footer using CSS flexbox as shown in the below image
+The footer must contain some logos, email, and navigation links
+The position of the footer must be fixed to the bottom -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0%;
+            padding: 0%;
+        }
+        .footer{
+            background-color: #000000f3;
+            color: #fff;
+            display: flex;
+            justify-content: space-evenly;
+            width: 100%;
+            position: fixed;
+            bottom: 0%;
+        }
+        .box{
+            width: 250px;
+        }
+        .logo{
+            width: 100px;
+            height: 30px;
+            padding-top: 60px;
+        }
+        .iso{
+            width: 100px;
+            height: 150px;
+        }
+        .mail{
+            font-size: 17px;
+        }
+        hr{
+            width: 180px;
+            border-bottom: 2px solid goldenrod;
+            margin-right: 120px;
+        }
+        .name{
+            padding: 40px 0px 10px 0px;
+        }
+        .sub{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .sub-left{
+            width: 100px;
+        }
+        .sub-right{
+            width: 75px;
+        }
+    </style>
+</head>
+<body>
+    <div class="footer">
+        <div class="box">
+            <img class="logo" src="img-que3/logo.png" alt="">
+            <p class="mail">Email us:<p>
+            <p>support@pwskills.com</p>
+            <img class="iso" src="img-que3/iso-9001-2015.svg" alt="">
+            <p>ISO 9001</p>
+        </div>
+
+        <div class="box box2">
+            <h3 class="name">PW Skills</h3><hr>
+            <div class="sub">
+                <div class="sub-left">
+                    <p>About Us</p>
+                    <p style="padding: 15px 0px;">FAQs</p>
+                    <p>Privacy policy</p>
+                </div>
+                <div class="sub-right">
+                    <p>Contact Us</p>
+                    <p>Job assistance</p>
+                    <p>Terms and conditions</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3 class="name">Products</h3><hr>
+            <p>PW Skills Lab</p>
+            <p>Job Portal</p>
+            <p>Experience portal</p>
+            <p>Become an affiliate</p>
+            <p>Hall of frame</p>
+        </div>
+    </div>
+</body>
+</html>

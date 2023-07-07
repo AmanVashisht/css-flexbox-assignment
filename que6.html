@@ -1,0 +1,77 @@
+<!-- Create a simple Google search bar as shown in the image below
+Use Google icons and free images for search icons, microphone, and Google lens images
+Ensure that the input field accepts text input and has no outline even when the user is typing. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #222020;
+        }
+        .main{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-content: center;
+            margin-top: 200px;
+        }
+        img{
+            width: 250px;
+            height: 80px;
+            padding-bottom: 25px;
+        }
+        .name{
+            text-align: center;
+        }
+        .bar{
+            width: 60%;
+            height: 50px;
+            border: 1px solid grey;
+            border-radius: 40px;
+            display: flex;
+            margin-left: 250px;
+        }
+        .search{
+            width: 20px;
+            height: 20px;
+            padding: 15px 25px;
+        }
+        .txt{
+            border: none;
+            background-color: transparent;
+            outline: none;
+            color: #fff;
+            font-size: 22px;
+            flex-grow: 1;
+        }
+        .mic{
+            width: 50px;
+            height: 50px;
+            padding-right: 5px;
+        }
+        .lens{
+            width: 50px;
+            height: 50px;
+            padding-right: 25px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="name">
+            <img src="img-que6/googlelogo_light_color_272x92dp.png" alt="" class="name">
+        </div>
+        
+        <div class="bar">
+            <img src="img-que6/search-icon-transparent-images-vector-16.png" alt="" class="search">
+            <input type="text" class="txt">
+            <img src="img-que6/7611756.png" alt="" class="mic">
+            <img src="img-que6/google_lens_logo_icon_159340.png" alt="" class="lens">
+        </div>
+    </div>
+</body>
+</html>
